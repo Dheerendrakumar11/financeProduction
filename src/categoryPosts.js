@@ -45,7 +45,7 @@ const News = () => {
     <>
    
     <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 justify-center overflow-x-auto max-w-full py-4 px-5 mt-18">
-  {posts.slice(702, 2500).map((post) => (
+  {posts.slice(800, 2500).map((post) => (
     <div
       key={post.id}
       className="bg-white rounded-lg h-[250px] w-full sm:w-[250px] flex-shrink-0 flex border border-gray-600 flex-col justify-between hover:scale-105 hover:shadow-[0_6px_15px_rgba(0,0,0,0.9)] transition duration-300 ease-in-out"
