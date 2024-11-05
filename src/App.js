@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from './Nav';
 import PostContent from './PostContent';
-import CategoryPost from './CategoryPosts';
+import CategoryPost from './categoryPosts';
 
 export default function App() {
   return (
